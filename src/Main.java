@@ -4,9 +4,7 @@ public class Main {
         // Суть этого метода - получить имя класса объекта, который вы передаёте в качестве параметра.
         // Метод, соответственно, тоже обобщенный.
 
-        Generics <String> generics = new Generics<>(" Дженерик");
-        generics.СhekTheClass();
-        System.out.println(generics.getName());
-
+        Generics<String> generics = new Generics<>("generics");
+        generics.chekTheClass(generics.getName());
     }
 }
